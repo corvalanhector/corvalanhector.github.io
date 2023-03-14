@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(220, 245, 243);
+    padding: 50px,50px,50px,50px;
+    border-radius: 50px,50px,50px,50px;
+    border: 10px;
+    border-color: blue;
+    
+}
+header{
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: aliceblue;
+}
+section{
+    background-color:bisque;
+}
+h1{
+    display: inline-block;
+    position: relative;
+    color:darkblue;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    
+}
+
+h1::after,h1::before{
+    content:'';
+    position:absolute;
+    height: 3px;
+    width: 100px;
+    background-color: currentColor;
+    top: 0.6em;
+
+}
+h1::before{
+    left: -120px;
+}
+h1::after{
+    right: -120px;
+}
+
+
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color:darkgray;
+}
+h3{
+    font-weight: bold;
+    color:blue;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.video-publicidad{
+    font-family:Georgia, 'Times New Roman', Times, serif
+    border: 2px solid white;
+    border-radius: 20px;
+    position:relative;
+    background-color: bisque;
+    display: flex;
+    padding: 10px;
+    
+}
+.informacion-personal{
+    background-color: beige;
+    border-style: solid 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align-last:left;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+
+}
+.Experiencia-laboral{
+    background-color: beige;
+    border-style: hidden 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align-last: left;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.Habilidades{
+    background-color: beige;
+    border-style: hidden 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align-last: left;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.footer{
+    background-color:grey;
+    color: white;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.imagen-1{
+border-radius: 25px;
+margin-left: 40px;
+border-style: solid;
+padding: 15px;
+
+}
+.imagen-foto{
+    border-radius: 150px;
+    border-style:solid;
+    border-color: blue;
+    padding: 5px;
+    margin-left: 50px;
+}
+#nombre{
+    font-size: 20px;
+    font-weight: bold;
+}
+#parrafo_video{
+    padding-left: 15px;
+    font-size: 18px;
+}
+.contenedor{
+    max-width: 450px;
+    height: auto;
+    background-color: azure;
+    margin: 5% auto;
+    padding-bottom: 2rem;
+}
+.titulo_contenedor{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-top: solid .4rem orange;
+    margin-bottom: 1rem;
+}
+.formulario{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formulario_botones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.submit, .reset, .input{
+padding: 0.5rem;
+margin: 0.5rem 0;
+border: none;
+border-bottom: solid;
+transition: all .5s;
+
+
+}
